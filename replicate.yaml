@@ -1,0 +1,14 @@
+name: short-form-edit-ai
+version: 1.0.0
+
+input:
+  user_video:
+    type: file
+    description: "User uploaded video"
+  reference_video:
+    type: file
+    optional: true
+    description: "Video whose style should be copied"
+  options:
+    type: dict
+    description: "Editing options"
